@@ -64,7 +64,7 @@ db.Book.remove({}, function(err, books){
     // create new records based on the array books_list
     db.Book.create(books_list, function(err, books){
       if (err) { return console.log('err', err); }
-      console.log("created", books.length, "books");
+      console.log("created", books.length, "book");
       process.exit();
     });
   }
