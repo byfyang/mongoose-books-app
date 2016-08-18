@@ -21,5 +21,5 @@ var BookSchema = new Schema({
   releaseDate: String
 });
 
-var Book = mongoose.model('Book', BookSchema);
-module.exports = Book;
+var Books = mongoose.model('Book', BookSchema);
+module.exports = Books;
